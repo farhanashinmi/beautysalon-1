@@ -119,10 +119,12 @@ span{
 .service{
     padding:20px 120px 0 0;
     width: 1350px;
+    background-color: rgba(68, 9, 9, 0.418);
 }
 .service-section{
     background-color: white;
     margin-top: -7PX;
+
 }
 
 .service-img{
@@ -130,6 +132,8 @@ span{
     height: 600px;
     padding-left: 470px;
     margin-top: 20px;
+   
+    
    
 }
 .service-description{
@@ -167,8 +171,74 @@ h3{
     text-align: center;
     text-align: justify;
     padding: 18px;
-   
+}
+.concern{
+    align-items: center;
+    padding:20px 120px 0 0;
+    width: 1350px; 
+    background-color: rgba(250, 105, 48, 0.226);
+}
+.concern-sction{
+    background-color: white;
+    margin-top: -7PX; 
+}
+.concern-description{
+    background-color: white;
+    margin-top: -7PX;
+    padding:20px 120px 20px 120px;
+    
+}
+.manage{
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 1350px;
+    height: 300px; 
+}
+h6{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    padding: 130px;
+    margin-top: 0;
+}
+.footer-section{
+    background-color: white;
+    width: 1350px;
+    height: 400px; 
+    align-items: center;
+}
+.logo-1{
+    width: 300px ;
+    height: 200px;
+    align-items: center;
+    padding:40px 500px 20px 500px; 
+}
 
+
+.icon{
+    align-items: center;
+    text-align: center;
+    padding:20px 500px 20px 500px; 
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    
+   
+}
+.fa-brands{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+   
+    border: 4px solid red;
+    
+    
+}
+.fa-solid{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+    border: 4px solid red;
 }
 
 
