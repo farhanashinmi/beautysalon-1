@@ -5,7 +5,10 @@
 }
 body{
     font-family: Poppins;
-    background-image: ;
+    font-size:200,300,400,600; 
+    max-width: 100vh;
+    background-image: url(images/b\ ss.png);
+    background-attachment: fixed;
 }
 header{
     max-width: 1200px;
@@ -34,9 +37,6 @@ header{
     align-items: center;
     padding-left: 50px;
     
-    
-
-
 }
 .header-img{
     width: 1200px;
@@ -56,7 +56,6 @@ nav{
     background-color: black;
     width: 1340px;
    
-
 }
 li{
     font-size: 18px;
@@ -65,9 +64,111 @@ li{
     margin: auto;
     gap: 4px;
 }
+
 .design{
     background-color: red;
     height: 8px;
     width: 1340px ;
 
 }
+/*-- salon section --*/
+h1{
+    font-size: 65px; 
+    text-align: center;
+    margin: 0 20px 20px 20px; 
+    padding-top: 22px;
+}
+span{
+    color: red;
+    
+}
+.salon{
+    width: 1340px;
+    background-color: rgba(255, 255, 255, 0.144);
+    margin: 0;
+    background-color: antiquewhite;
+    
+    
+}
+.salon-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin: 45px;
+    
+}
+.img-1{
+   
+   width: 350px;
+   height: 350px;
+   background: fixed;
+   border: 36px;
+  
+  
+}
+.salon-style{
+    text-align: left;
+    padding:20px 120px 0 160px;
+}
+.salon-description{
+    text-align: left;
+    padding:20px 120px 0 160px;
+    font-size: 16px;
+}
+.service{
+    padding:20px 120px 0 0;
+    width: 1350px;
+}
+.service-section{
+    background-color: white;
+    margin-top: -7PX;
+}
+
+.service-img{
+    width: 400px;
+    height: 600px;
+    padding-left: 470px;
+    margin-top: 20px;
+   
+}
+.service-description{
+    
+    padding:20px 120px 0 160px;
+}
+.service-img-area{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    padding:20px 120px 0 160px;
+}
+h3{
+    font-size: 3rem;
+    color: rgb(59, 59, 59);
+
+}
+.img-2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 45px;
+    border: 4px solid red;
+    margin-bottom: 0;
+   
+}
+.img-description{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-evenly;
+    text-align: center;
+    text-align: justify;
+    padding: 18px;
+   
+
+}
+
+
